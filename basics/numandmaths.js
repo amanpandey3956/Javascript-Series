@@ -14,13 +14,13 @@ const hundreds = 1000000;
 console.log(hundreds.toLocaleString('en-IN')); // no need of 'en-IN' this it automatically converts it into indian stds
 
 // ******************* Maths ******************************************************
-/*console.log(Math);
+console.log(Math);
 console.log(Math.abs(-4));
 console.log(Math.round(4.6));
 console.log(Math.ceil(4.6));
 console.log(Math.floor(4.6));
 console.log(Math.min(4,6,9,2));
-console.log(Math.max(4,6,9,2));*/
+console.log(Math.max(4,6,9,2));
 
 console.log(Math.random());
 console.log((Math.random()*10) +1);

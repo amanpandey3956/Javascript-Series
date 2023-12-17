@@ -1,14 +1,14 @@
 // ************** All about arrays ************************
-const myArr = [0,1,2,3,4,5]
+const myArr = [0,1,2,8,4,5]
 
 // another way of declaring an array
 
 const myArr2 = new Array(1,2,3,4,5);
-console.log(myArr[3]);
+console.log(myArr[3]); // o/p = 8
 
 //  ************* Different Array methods ****************************
 
-myArr.push(6) // it adds value at the end of an array
+/*myArr.push(6) // it adds value at the end of an array
 myArr.pop() // it removes the last value of an array 
 
 myArr.unshift(9) // it adds value at start and shift all values to its next index
@@ -40,6 +40,6 @@ console.log("B ", myArr);
 
 const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
-console.log(myn2);
+console.log(myn2);*/
 
 

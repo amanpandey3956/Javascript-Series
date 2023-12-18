@@ -4,7 +4,7 @@ const dc_heros = ["superman", "flash", "batman"]
 marvel_heros.push(dc_heros) // add elements of dc_heros to marvel_heros but consider all values of dc_heros as a single indexed value and its o/p is like this [thor,ironman,spiderman,[values of dc_heros at index 3]]  
 
 console.log(marvel_heros);
-console.log(marvel_heros[3][1]); // gives the first value of index 3rd and its o/p - flash 
+console.log(marvel_heros[3][2]); //gives the first value of index 3rd and its o/p - batman
 
 const allHeros = marvel_heros.concat(dc_heros)
 console.log(allHeros); // gives o/p better than push method and o/p is like ["thor", "Ironman","spiderman","superman", "flash", "batman"]

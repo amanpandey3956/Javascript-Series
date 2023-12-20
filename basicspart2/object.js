@@ -5,7 +5,7 @@ const mySym = Symbol("key1") // for accessing this symbol in below object
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1", // for writing symbol of outside object we can use this syntax
+    [mySym]: "mykey1", // for writing symbol of outside object we can use this syntax but if we did not use [] this square bracket it gives the type of mySym as a string not a symbol
     age: 18,
     location: "Jaipur",
     email: "hitesh@google.com",
@@ -24,18 +24,21 @@ console.log(JsUser["full name"]) // same method to access the object
 
 console.log(JsUser[mySym]) // we cannot give strign [" "] like this for accessing the symbol value of object 
 
-// ************************************************************
+// ****************************************************************************
 
-JsUser.email = "hitesh@chatgpt.com"
-Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
-console.log(JsUser);
+JsUser.email = "hitesh@chatgpt.com" // In this way we can change the value of object 
+Object.freeze(JsUser) // we can freeze the value of object like this so further it cannot be changed 
+JsUser.email = "hitesh@microsoft.com" // it doesn't have any effect bcoz it's already freezed 
+console.log(JsUser); // for printing JsUser object o/p
+
+// ****************************************************************************
+// so now we are going to add function in object
 
 JsUser.greeting = function(){
     console.log("Hello JS user");
 }
 JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
+    console.log(`Hello JS user, ${this.name}`); // to refrence same object value we have used {this.name}
 }
 
 console.log(JsUser.greeting());

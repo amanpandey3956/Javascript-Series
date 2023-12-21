@@ -1,5 +1,5 @@
- //const tinderUser = new Object() // singleton object
-/*const tinderUser = {} // another way to declare object but it is non-singleton object
+//const tinderUser = new Object() // singleton object
+const tinderUser = {} // another way to declare object but it is non-singleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -56,7 +56,7 @@ console.log(Object.values(tinderUser)); // gives o/p of all values
 
 console.log(Object.entries(tinderUser)); // gives o/p of combine or both key-value pair
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // sometimes you ask the value which is not present in database which cause crash hence to avoid this condition simply we can ask to database using his method*/
+console.log(tinderUser.hasOwnProperty('isLoggedIn')); // sometimes you ask the value which is not present in database which cause crash hence to avoid this condition simply we can ask to database using his method
 
 
 // ****************** Object Destructuring ************************************************

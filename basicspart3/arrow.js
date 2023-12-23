@@ -38,7 +38,7 @@ const chai =  () => {
     console.log(this);
 }
 
-chai() // // this will again gives o/p - undefined bcoz this context doesnt work in function it only works in object
+chai() // // this will again gives o/p - undefined bcoz this context doesnt work in arrow also function it only works in object
 
 // ****************************************************************************************
 

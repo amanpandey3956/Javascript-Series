@@ -21,6 +21,8 @@ handleObject({
     price: 399
 }) // you can directly use object inside call like this
 
+// how to use Array inside function
+
 const myNewArray = [200, 400, 100, 600]
 
 function returnSecondValue(getArray){

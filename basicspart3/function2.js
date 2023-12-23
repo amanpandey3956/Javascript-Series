@@ -7,7 +7,7 @@ console.log(calculateCartPrice(200,300,400,5000));
 // how to use object inside function
 
 const user = {
-    username: "hitesh",
+    username: "Aman",
     prices: 199
 }
 

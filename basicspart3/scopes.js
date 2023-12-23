@@ -1,3 +1,5 @@
+// Global and local scopes
+
 //var c = 300
 let a = 300
 if (true) {
@@ -13,7 +15,7 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Scope level and mini Hoisting 
 
 function one(){
     const username = "Aman"
@@ -45,7 +47,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5)) // yes u can access 'addone' before its function initialization
 
 function addone(num){
     return num + 1
@@ -53,7 +55,7 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5) // cannot access 'addTwo' before initialization
 const addTwo = function(num){
     return num + 2
 }

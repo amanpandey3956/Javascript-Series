@@ -1,4 +1,5 @@
-// if
+// if-else statement in detail 
+
 const isUserloggedIn = true
 const temperature = 41
 
@@ -9,7 +10,7 @@ const temperature = 41
 // }
 
 // console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==
+// <, >, <=, >=, ==, !=, ===, !== (comparisonal operators)
 
 // const score = 200
 
@@ -38,6 +39,8 @@ const temperature = 41
 
 // }
 
+//***************************************************************************************
+
 const userLoggedIn = true
 const debitCard = true
 const loggedInFromGoogle = false
@@ -50,3 +53,5 @@ if (userLoggedIn && debitCard && 2==3) {
 if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("User logged in");
 }
+
+//*****************************************************************************************

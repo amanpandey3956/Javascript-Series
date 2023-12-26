@@ -34,7 +34,9 @@ const myObject = {
     game2: 'Spiderman'
 }
 
-// for (const [key, value] of myObject) {
-//     console.log(key, ':-', value);
+for (const [key, value] of myObject) {
+     console.log(key, ':-', value);
     
-// }
+} // o/p - myObject is not iterable 
+
+// so the conclusion is (for of) loop works on array , strings , Map , but not works on object 

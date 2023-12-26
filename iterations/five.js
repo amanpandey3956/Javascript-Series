@@ -1,22 +1,38 @@
+// detailed discussion on for each loop
+
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){
-//     console.log(val);
-// } )
+coding.forEach( function (val){
+    console.log(val);
+} ) // syntax and method to write for each loop in array , we can choose any other names instead (val)
 
-// coding.forEach( (item) => {
-//     console.log(item);
-// } )
+// **********************************************************************************
 
-// function printMe(item){
-//     console.log(item);
-// }
+// for each in arrow function
 
-// coding.forEach(printMe)
+coding.forEach( (item) => {
+   console.log(item);
+} )
 
-// coding.forEach( (item, index, arr)=> {
-//     console.log(item, index, arr);
-// } )
+//************************************************************************************
+
+// we can write function seperate unlike upper one examples
+
+function printMe(item){
+     console.log(item);
+}
+
+coding.forEach(printMe)
+
+// ************************************************************************************
+
+coding.forEach( (item, index, arr)=> {
+     console.log(item, index, arr);
+} )
+
+// ************************************************************************************
+
+// array ke andar object rha toh uske properties ko aise print kar sakte hain 
 
 const myCoding = [
     {
@@ -37,3 +53,5 @@ myCoding.forEach( (item) => {
     
     console.log(item.languageName);
 } )
+
+// o/p - javascript , java , python

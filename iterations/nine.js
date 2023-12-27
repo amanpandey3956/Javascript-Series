@@ -1,4 +1,4 @@
-// Reduce In JS
+// Detailed discussion on (Reduce In JS)
 
 const myNums = [1, 2, 3]
 
